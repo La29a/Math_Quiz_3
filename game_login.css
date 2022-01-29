@@ -1,0 +1,40 @@
+.textinput {
+    width: 500px;
+}
+body {
+    background-color: black;
+}
+h1 {
+    color: chartreuse;
+}
+.bun {
+    background-color: orange;
+}
+.chair {
+    float: left;
+    width: 50%;
+    height: 1000px;
+    padding-top: 200px;
+}
+img {
+    height: 250px;
+    width: 250px;
+}
+#output {
+    background: yellow;
+    border-radius: 10px;
+    border-top: 10px solid brown;
+    padding: 10px;
+    float: none;
+    text-align: left;        
+}
+.white {
+    color: white;
+}
+.textinputdif {
+    width: 500px;
+}
+.black {
+   color:black;
+   font-weight: bold;
+}

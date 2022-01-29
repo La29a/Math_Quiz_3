@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Multiplication Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="game_login.css">
+
+<script src="game_page.js"></script>
+</head>
+<body>
+    <h4 class="white" id="player1nameh4"></h4> <span class="white" id="player1scorespan"></span>
+    <br>
+    <h4 class="white" id="player2nameh4"></h4> <span class="white" id="player2scorespan"></span>
+    <div class="container">
+        <center>
+        <h1>The Math Quiz</h1>
+        <h3 class="white">Question Turn - </h3> <h3 class="white" id="questionturnh3"></h3>
+        <h3 class="white">Answer Turn - </h3> <h3 class="white" id="answerturnh3"></h3>
+        <div id="output"></div>
+        <div>
+            <h4 class="white">Number 1 to be Multiplied</h4>
+            <br>
+            <input id="number1input" type="number" class="textinputdif" placeholder="Enter Number Here">            
+        </div>
+        <br>
+        <br>
+        <div>
+            <h4 class="white">Number 2 to be Multiplied</h4>
+            <br>
+            <input type="number" id="number2input" class="textinputdif" placeholder="Enter Number here">
+            <br>
+            <br>
+            <br>
+            <button class="bun" onclick="send()">Send</button>
+        </div>
+        </center>
+    </div>
+</body>
